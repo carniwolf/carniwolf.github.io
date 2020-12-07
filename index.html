@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Web Mockup</title>
+	<title>YFL Governance Staking Calculator</title>
 
 	<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/jquery-ui.css">
@@ -21,12 +21,12 @@
 
 	<div class="calc">
 
-		<div class="calc__head">Сalculate the rewards from staking in the yfl&nbsp;linkswap governance&nbsp;vault</div>
+		<div class="calc__head">Сalculate your rewards from staking in the yfl&nbsp;linkswap governance&nbsp;vault</div>
 
 		<!-- <div class="calc__separator"></div> -->
 
 		<div class="calc__line calc__line--border">
-			<div class="calc__title">Enter the number of YFL you have&nbsp;staked:</div>
+			<div class="calc__title">Enter the number of YFL you want&nbsp;to stake:</div>
 			<input id="calc_yfl" type="number" class="calc__input" value="100">
 		</div>
 
@@ -34,14 +34,14 @@
 
 		<div class="calc__line calc__line--wrap calc__line--slider calc__line--border">
 			<div class="calc__slider">
-				<div class="calc__head calc__head--22">Assumptions</div>
+				<div class="calc__head calc__head--22">Staked Percent</div>
 				<div class="calc__sliderval" id="calc_slider_1_val"></div>
 				<div class="calc__sliderdiv" id="slider_1"></div>
 				<input id="slider_1_in" type="number" class="calc__input calc__input--slider" disabled>
 			</div>
 
 			<div class="calc__slider">
-				<div class="calc__head calc__head--22">Daily Volume</div>
+				<div class="calc__head calc__head--22">Linkswap Daily Volume</div>
 				<div class="calc__sliderval" id="calc_slider_2_val"></div>
 				<div class="calc__sliderdiv" id="slider_2"></div>
 				<input id="slider_2_in" type="number" class="calc__input calc__input--slider" disabled>
@@ -72,7 +72,8 @@
 				<div id="calc_itog_4" class="calc__itog"></div>
 			</div>
 		</div>
-
+		
+<div class="calc__head calc__head--blue calc__head--22">Yearly estimate</div>
 
 		<div class="calc__social">
 			<a target="_blank" class="calc__link" href="https://twitter.com/YFLinkio"><img alt="twitter" src="img/yfl-twitter-logo.e86393d3.svg" width="30px" height="30px"></a>
