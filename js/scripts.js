@@ -22,7 +22,7 @@ $(document).ready(function() {
 		value: 2,
 		step: 1,
 		min: 1,
-		max: 200,
+		max: 1000,
 		slide : function(event, ui) {
 			$("#slider_2_in").val(ui.value);
 			calculation();
