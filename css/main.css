@@ -28,6 +28,10 @@ body {
      border-color: #b9bdbb;
 }
 
+a:link, a:visited {
+ text-decoration: none;
+}
+
 
 .calc {
   position: relative;
