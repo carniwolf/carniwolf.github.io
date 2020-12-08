@@ -19,7 +19,7 @@ $(document).ready(function() {
 		animate: "slow",
 		//orientation: "vertical",
 		range: "min",
-		value: 2,
+		value: 10,
 		step: 1,
 		min: 1,
 		max: 1000,
@@ -47,7 +47,7 @@ $(document).ready(function() {
 		$('#calc_slider_2_val').text( "$ " + calc_slider_2_val.toLocaleString("en") + ",000,000" );
 
 
-		var calc_itog_1 = +calc_yfl / (+calc_slider_1_val * 50000 / 100) * (0.05 / 100 * +calc_slider_2_val * 1000000);
+		var calc_itog_1 = +calc_yfl / (+calc_slider_1_val * 50000 / 100) * (0.04 / 100 * +calc_slider_2_val * 1000000);
 		var calc_itog_2 = +calc_itog_1 * 7;
 		var calc_itog_3 = +calc_itog_1 * 30;
 		var calc_itog_4 = +calc_itog_1 * 365;
