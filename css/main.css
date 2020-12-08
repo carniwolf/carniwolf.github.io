@@ -12,8 +12,8 @@ body {
 }
 
 .myButton {
-	background:linear-gradient(to bottom, #1f4078 5%, #4b6d96 100%);
-	background-color:#1f4078;
+	background:linear-gradient(to bottom, #242c3c 5%, #242c3c 100%);
+	background-color:#242c3c;
 	border-radius:9px;
 	display:inline-block;
 	cursor:pointer;
@@ -25,13 +25,14 @@ body {
 	text-decoration:none;
 }
 .myButton:hover {
-	background:linear-gradient(to bottom, #4b6d96 5%, #1f4078 100%);
-	background-color:#4b6d96;
+	background:linear-gradient(to bottom, #242c3c 5%, #242c3c 100%);
+	background-color:#242c3c;
 }
 .myButton:active {
 	position:relative;
 	top:1px;
 }
+
 
 .calc {
   position: relative;
