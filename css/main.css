@@ -33,7 +33,7 @@ body {
 .myButton:hover {
      color: #ffffff;
      background: linear-gradient(to top right, #242C3C, #242C3C);
-     border-color: #b9bdbb;
+     border-color: #628fff;
 }
 
 a:link, a:visited {
