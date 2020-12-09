@@ -19,9 +19,9 @@ $(document).ready(function() {
 		animate: "slow",
 		//orientation: "vertical",
 		range: "min",
-		value: 15,
+		value: 10,
 		step: 1,
-		min: 10,
+		min: 1,
 		max: 200,
 		slide : function(event, ui) {
 			$("#slider_2_in").val(ui.value);
