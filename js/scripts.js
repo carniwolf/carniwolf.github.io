@@ -19,10 +19,10 @@ $(document).ready(function() {
 		animate: "slow",
 		//orientation: "vertical",
 		range: "min",
-		value: 10,
+		value: 15,
 		step: 1,
-		min: 1,
-		max: 1000,
+		min: 10,
+		max: 200,
 		slide : function(event, ui) {
 			$("#slider_2_in").val(ui.value);
 			calculation();
